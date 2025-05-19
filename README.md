@@ -30,7 +30,7 @@ echo "MONGODB_URI=mongodb://localhost:27017/nome_do_banco" > .env
 echo "PORT=3000" >> .env
 Execute a aplicação:
 npm run dev
-# ou
+ ou
 npm start
 Se encontrar problemas, verifique se o MongoDB está em execução e se as variáveis de ambiente estão corretas.
 
