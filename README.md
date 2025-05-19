@@ -4,22 +4,22 @@ API de Gerenciamento de Produtos
 Descrição Geral
 Esta API permite o gerenciamento de produtos em um sistema, possibilitando operações como cadastro, consulta, atualização e remoção de produtos. É ideal para quem está começando a aprender sobre APIs RESTful e deseja praticar conceitos básicos de programação.
 
-Objetivos
+# Objetivos
 Facilitar o controle de produtos em uma aplicação.
 Proporcionar um ambiente de aprendizado para iniciantes.
 Demonstrar boas práticas de desenvolvimento de APIs.
-Funcionalidades
+# Funcionalidades
 Cadastrar produtos
 Listar todos os produtos
 Consultar produto por ID
 Atualizar informações de um produto
 Remover produto
-Tecnologias Utilizadas
+# Tecnologias Utilizadas
 Linguagem: Node.js (JavaScript)
 Framework: Express.js
 Banco de Dados: MongoDB
 Ferramentas: Postman (para testes), npm
-Instalação
+# Instalação
 Clone o repositório:
 git clone https://github.com/oiyancode/API_PRD_MENAGED.git
 Acesse a pasta do projeto e instale as dependências:
@@ -34,7 +34,7 @@ npm run dev
 npm start
 Se encontrar problemas, verifique se o MongoDB está em execução e se as variáveis de ambiente estão corretas.
 
-Exemplos de Requisições e Respostas
+# Exemplos de Requisições e Respostas
 1. Cadastrar Produto
 Requisição:
 
@@ -115,4 +115,5 @@ GET	/produtos	Listar todos os produtos
 GET	/produtos/{id}	Consultar produto por ID
 PUT	/produtos/{id}	Atualizar produto por ID
 DELETE	/produtos/{id}	Remover produto por ID
+
 Sinta-se à vontade para contribuir ou tirar dúvidas!
